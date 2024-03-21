@@ -12,7 +12,7 @@ function Services() {
           Streamline your bussiness with our services
         </div>
 
-        <p className="text-center mt-4 text-lg font-normal text-neutral-300 max-w-lg mx-auto px-4">
+        <p className="text-center mt-4 text-lg font-normal text-white max-w-lg mx-auto px-4">
          From website design to social media management, We offer a wide range of services to help you grow your business.
         </p>
       </div>

@@ -5,13 +5,12 @@ import Sliderone from './Sliderone'
 function HeroSection() {
   return (
     <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
-          <div className="text-4xl pb-5 md:text-7xl px-6 text-center  text-[#39FF14] bg-clip-text  bg-gradient-to-b
-                        from-neutral-50 to bg-neutral-400 bg-opacity-50"
+          <div className="text-4xl pb-5 md:text-7xl px-6 text-center  text-[#39FF14]"
           >
             Great, grow, and <br /> scale your bussiness
           </div>
 
-        <p className="text-center mt-6 text-lg font-normal text-neutral-300 max-w-lg mx-auto px-4">
+        <p className="text-center mt-6 text-lg font-normal text-white max-w-lg mx-auto px-4">
           Custom tailored solutions for your business. We are a team of creativness who are excited to help you grow your bussiness.
         </p>
 

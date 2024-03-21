@@ -10,13 +10,12 @@ function GraphicDesign() {
     <div >
           <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div
-          className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-[#39FF14] bg-gradient-to-b
-                       from-purple-500 to bg-sky-200 bg-opacity-50"
+          className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-[#39FF14]"
         >
 Graphic Design          <br />
         </div>
 
-        <p className="text-center mt-4 text-lg font-normal text-neutral-300 max-w-lg mx-auto px-4">
+        <p className="text-center mt-4 text-lg font-normal text-white max-w-lg mx-auto px-4">
          We create stunning visuals for your brand. From logos to social Media Posts, we&apos;ve got you covered.
         </p>
       </div>

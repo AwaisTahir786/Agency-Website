@@ -38,8 +38,7 @@ function Navbar({ScrollGraphicsDesign,ScrollToBrands,ScrollToShopifySTore,Scroll
 
         {/* navbar content */}
         <div className='cursor-pointer hidden md:flex space-x-10 items-center
-         text-slate-300 bg-clip-text text-transparent bg-gradient-to-b
-          from-neutral-50 to bg-neutral-400 bg-opacity-50'>
+         text-white bg-clip-text '>
   <div onClick={ScrollWebsiteDesign} className='hover:text-[#39FF14] '>Website Design</div>
   <div onClick={ScrollGraphicsDesign} className='hover:text-[#39FF14]'>Graphics Design</div>
   <div onClick={ScrollToShopifySTore} className='hover:text-[#39FF14]'>Shopify Stores</div>
