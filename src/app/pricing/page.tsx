@@ -75,15 +75,11 @@ const Pricing = () => {
      bg-grid-white/[0.02] relative overflow-hidden">
 
       <Navbar
-        scrollToWebsiteDesign={() => { }}
-        scrollToGraphicDesign={() => { }}
-        scrollToShopifyStores={() => { }}
-        scrollToBrands={() => { }}
-        scrollToServices={() => { }}
+
       />
 
       <div className="flex items-center justify-center flex-col">
-        <div className="text-5xl pb-10 md:pb-20 text-slate-300 px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-500 bg-opacity-50">
+        <div className="text-5xl pb-10 md:pb-20 text-[#39FF14] px-6 text-center bg-clip-text  bg-gradient-to-b from-neutral-50 to-neutral-500 bg-opacity-50">
           Simple Pricing <br /> Choose your plan
         </div>
         <div className="grid md:grid-cols-3 gap-6 md:w-4/5 cursor-pointer pb-20  items-start ">
@@ -93,7 +89,7 @@ const Pricing = () => {
               className="h-full flex flex-col justify-between border rounded-3xl px-6  "
             >
               <div className={plan.style}>
-                <div className="text-4xl flex  items-center font-medium">
+                <div className="text-4xl flex text-[#39FF14] items-center font-medium">
                   {plan.name}
                   {/* render feature tag only for enterprise tab*/}
                   {plan.feature === "Contact Us" && (
@@ -113,9 +109,9 @@ const Pricing = () => {
                     >
                       {/* render checkmark only for enterprise tab*/}
                       {plan.feature === "Contact Us" ? (
-                        <PiCheckCircleFill className="text-blue-400 mr-2 text-xl" />
+                        <PiCheckCircleFill className="text-blue-500 mr-2 text-xl" />
                       ) : (
-                        <PiCheckCircleFill className="text-green-600 mr-2 text-xl" />
+                        <PiCheckCircleFill className="text-[#39FF14] mr-2 text-xl" />
                       )}
 
                       {feature}
@@ -127,7 +123,7 @@ const Pricing = () => {
               {/* button  */}
               <Link href={"/contact"}>
                 <div
-                  className="w-full my-4 py-2 mx-auto rounded-3xl text-white text-lg bg-gradient-to-r from-emerald-500 to-blue-300 flex justify-center items-center">
+                  className="w-full my-4 py-2 mx-auto rounded-3xl text-black text-lg bg-gradient-to-r bg-[#39FF14] flex justify-center items-center">
                   {plan.button}
                 </div>
               </Link>

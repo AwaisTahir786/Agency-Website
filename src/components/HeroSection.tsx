@@ -5,7 +5,7 @@ import Sliderone from './Sliderone'
 function HeroSection() {
   return (
     <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
-          <div className="text-4xl pb-5 md:text-7xl px-6 text-center  text-[#39FF14] bg-clip-text text-transparent bg-gradient-to-b
+          <div className="text-4xl pb-5 md:text-7xl px-6 text-center  text-[#39FF14] bg-clip-text  bg-gradient-to-b
                         from-neutral-50 to bg-neutral-400 bg-opacity-50"
           >
             Great, grow, and <br /> scale your bussiness

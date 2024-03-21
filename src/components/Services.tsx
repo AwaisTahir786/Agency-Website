@@ -7,8 +7,7 @@ function Services() {
 
 <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div
-          className="text-4xl pb-5 md:text-7xl px-6 text-center text-[#39FF14] bg-clip-text text-transparent bg-gradient-to-b
-                       from-blue-500 to bg-neutral-50 bg-opacity-50"
+          className="text-4xl pb-5 md:text-7xl px-6 text-center text-[#39FF14]"
         >
           Streamline your bussiness with our services
         </div>
