@@ -170,7 +170,7 @@ export default function ContactForm() {
               className="
             space-y-4
             h-full
-            border rounded-3xl p-10
+            border-2 rounded-3xl p-10
             md:w-1/3
             
             
@@ -183,7 +183,7 @@ export default function ContactForm() {
                   name="first_name"
                   render={({ field }) => (
                     <FormItem className="items-center justify-center  w-full">
-                      <FormLabel className="text-sm bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+                      <FormLabel className="text-sm bg-clip-text text-white">
                         First name *
                       </FormLabel>
                       <FormControl>
@@ -198,7 +198,7 @@ export default function ContactForm() {
                   name="last_name"
                   render={({ field }) => (
                     <FormItem className="items-center justify-center  w-full">
-                      <FormLabel className="text-sm bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+                      <FormLabel className="text-sm bg-clip-text text-white">
                         Last name *
                       </FormLabel>
                       <FormControl>
@@ -214,7 +214,7 @@ export default function ContactForm() {
                 name="email"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center  w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+                    <FormLabel className="text-sm bg-clip-text text-white">
                       Email *
                     </FormLabel>
                     <FormControl>
@@ -229,7 +229,7 @@ export default function ContactForm() {
                 name="company_name"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center  w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+                    <FormLabel className="text-sm bg-clip-text text-white">
                       Company name?
                     </FormLabel>
                     <FormControl>
@@ -244,7 +244,7 @@ export default function ContactForm() {
                 name="company_size"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+                    <FormLabel className="text-sm bg-clip-text text-white">
                       Company size ?
                     </FormLabel>
                     <Select
@@ -275,7 +275,7 @@ export default function ContactForm() {
                 name="help"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center  w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+                    <FormLabel className="text-sm bg-clip-text text-white">
                       How can we help ?
                     </FormLabel>
                     <Select
@@ -308,7 +308,7 @@ export default function ContactForm() {
                 name="info"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+                    <FormLabel className="text-sm bg-clip-text text-white">
                       Anything else ?
                     </FormLabel>
                     <FormControl>
@@ -330,7 +330,7 @@ export default function ContactForm() {
                 "
                   />
                 </div>
-                <div className="text-xs font-light  md:w-3/4 mb-1 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+                <div className="text-xs font-light  md:w-3/4 mb-1 bg-clip-text text-white">
                   I agree to Bird&apos; sending marketing communications related
                   to bird
                 </div>
@@ -342,6 +342,9 @@ export default function ContactForm() {
                   className="
                             text-sm
                             font-light
+                             
+                            hover:border-[#39FF14] 
+                            border-2
                         
                             "
                   disabled={loading}
@@ -370,9 +373,9 @@ export default function ContactForm() {
         "
               >
                 <div className="w-80 py-20">
-                  <PiSmiley className="text-6xl text-[#6c6684] mx-auto" />
+                  <PiSmiley className="text-6xl text-[#39FF14]  mx-auto" />
 
-                  <div className="text-gray-500 font-light  text-center justify-center mx-auto py-10">
+                  <div className="text-gray-400 font-light  text-center justify-center mx-auto py-10">
                     We&apos;ve received your inquiry and will be contacting you
                     via email shortly.
                   </div>

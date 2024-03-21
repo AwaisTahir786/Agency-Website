@@ -86,7 +86,7 @@ const Pricing = () => {
           {plans.map((plan, index) => (
             <div
               key={plan.name}
-              className="h-full flex flex-col justify-between border rounded-3xl px-6  "
+              className="h-full flex flex-col justify-between border border-2 rounded-3xl px-6  "
             >
               <div className={plan.style}>
                 <div className="text-4xl flex text-[#39FF14] items-center font-medium">
@@ -109,7 +109,7 @@ const Pricing = () => {
                     >
                       {/* render checkmark only for enterprise tab*/}
                       {plan.feature === "Contact Us" ? (
-                        <PiCheckCircleFill className="text-blue-500 mr-2 text-xl" />
+                        <PiCheckCircleFill className="text-[#39FF14] mr-2 text-xl" />
                       ) : (
                         <PiCheckCircleFill className="text-[#39FF14] mr-2 text-xl" />
                       )}
@@ -123,7 +123,7 @@ const Pricing = () => {
               {/* button  */}
               <Link href={"/contact"}>
                 <div
-                  className="w-full my-4 py-2 mx-auto rounded-3xl text-black text-lg bg-gradient-to-r bg-[#39FF14] flex justify-center items-center">
+                  className="w-full my-4 py-2 mx-auto rounded-3xl text-black font-semibold text-lg bg-gradient-to-r bg-[#39FF14] flex justify-center items-center">
                   {plan.button}
                 </div>
               </Link>
