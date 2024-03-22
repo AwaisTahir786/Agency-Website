@@ -25,8 +25,8 @@ function Sliderone() {
     const settings={
         arrows : false,
         infinite: true,
-        slidesToShow: 3,
-        speed:4000,
+        slidesToShow: 4,
+        speed:8000,
         autoplay:true,
         autoplaySpeed:1000,
         className:"w-full mx-auto cursor-pointer center-mode"
@@ -48,8 +48,22 @@ function Sliderone() {
             priority
             src="/small1.jpg"
             alt='1image'
-            width={500}
-            height={500}
+            width={300}
+            height={300}
+            className='rounded-2xl'
+             />
+        </div>
+        </>
+
+        
+        <>
+        <div className='rounded-md p-2 md:p-12'>
+            <Image
+            priority
+            src="/woodd.jpg"
+            alt='1image'
+            width={300}
+            height={300}
             className='rounded-2xl'
              />
         </div>
@@ -61,8 +75,8 @@ function Sliderone() {
             priority
             src="/small2.jpg"
             alt='1image'
-            width={500}
-            height={500}
+            width={300}
+            height={300}
             className='rounded-2xl'
              />
         </div>
@@ -76,8 +90,8 @@ function Sliderone() {
             priority
             src="/woodd.jpg"
             alt='1image'
-            width={500}
-            height={500}
+            width={300}
+            height={300}
             className='rounded-2xl'
              />
         </div>
@@ -89,8 +103,22 @@ function Sliderone() {
             priority
             src="/small2.jpg"
             alt='1image'
-            width={500}
-            height={500}
+            width={300}
+            height={300}
+            className='rounded-2xl'
+             />
+        </div>
+        </>
+
+        
+        <>
+        <div className='rounded-md p-2 md:p-12'>
+            <Image
+            priority
+            src="/woodd.jpg"
+            alt='1image'
+            width={300}
+            height={300}
             className='rounded-2xl'
              />
         </div>

@@ -28,13 +28,13 @@ const AccordionTrigger = React.forwardRef<
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        "flex flex-1 items-center justify-between pt-10 pb-6 text-2xl md:text-4xl font-semibold transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
+        "flex flex-1 items-center justify-between pt-4 text-2xl md:text-2xl font-semibold transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
         className
       )}
       {...props}
     >
       {children}
-      <PlusCircle className="h-8 w-8 md:w-10 md:h-10 shrink-0 transition-transform duration-200" />
+      <PlusCircle className="h-4 w-4 md:w-6 md:h-6 shrink-0 transition-transform duration-200" />
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
 ))
@@ -49,7 +49,7 @@ const AccordionContent = React.forwardRef<
     className="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
     {...props}
   >
-    <div className={cn("pb-4 pt-0", className)}>{children}</div>
+    <div className={cn("pb-2 pt-4", className)}>{children}</div>
   </AccordionPrimitive.Content>
 ))
 

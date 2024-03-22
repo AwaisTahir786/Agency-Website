@@ -86,14 +86,14 @@ const Pricing = () => {
           {plans.map((plan, index) => (
             <div
               key={plan.name}
-              className="h-full flex flex-col justify-between border border-2 rounded-3xl px-6  "
+              className="h-full flex flex-col justify-between  border-2 rounded-3xl px-6  "
             >
               <div className={plan.style}>
                 <div className="text-4xl flex text-[#39FF14] items-center font-medium">
                   {plan.name}
                   {/* render feature tag only for enterprise tab*/}
                   {plan.feature === "Contact Us" && (
-                    <div className="text-sm font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded-full ml-4 items-center ">
+                    <div className="text-sm font-medium text-blue-600 bg-white px-2 py-2 rounded-full ml-4 items-center ">
                       Contact Us
                     </div>
                   )}

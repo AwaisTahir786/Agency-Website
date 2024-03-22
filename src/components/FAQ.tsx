@@ -10,10 +10,10 @@ function FAQ() {
   return (
     <div className=' mt-10 md:py-10 bg-[#f5f6f4] w-full rounded-3xl'>
         <div className='p-10 md:p-4 md:px-20'>
-        <div className="text-3xl md:text-7xl font-bold text-black">
+        <div className="text-3xl md:text-4xl font-bold text-black">
               Have questions ?
             </div>
-            <div className="font-semibold text-3xl md:text-6xl text-gradient bg-gradient-to-r from-emerald-600 to-blue-300 text-transparent bg-clip-text ">
+            <div className="font-semibold text-3xl md:text-2xl text-gradient bg-gradient-to-r from-emerald-600 to-blue-300 text-transparent bg-clip-text ">
               Get answers.
             </div>
 
