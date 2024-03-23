@@ -23,7 +23,7 @@ function ShopifyStore() {
   return (
     <section className='w-full mt-10 bg-[#f6f5f4] md:py-10 rounded-3xl' >
         <div className='p-4 mx-auto z-10 w-full relative'>
-            <div className='text-4xl py-10 md:pb-8 md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 to-neutral-500  bg-opacity-50'>
+            <div className='text-4xl py-10 md:pb-8 md:text-7xl text-center bg-clip-text text-black'>
                 Shopify store <br/>
             </div>
             <p className='mt-4 text-lg font-normal text-neutral-800 max-w-lg text-center mx-auto'>

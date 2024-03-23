@@ -13,6 +13,7 @@ import { CardHoverEffectDemo } from "./snippets/card-hover-snippet";
 import FAQ from "@/components/FAQ";
 import { useRef } from "react";
 import { DiEnvato } from "react-icons/di";
+import Testmonials from "@/components/Testmonials";
 
 export default function Home() {
 
@@ -76,11 +77,13 @@ export default function Home() {
         <div ref={shopifyStoresDesignRef}>
           <ShopifyStore />
         </div>
-        <div ref={brandsRef}>
-          <Brands />
-        </div>
+        
         <div ref={servicesRef}>
         <Services />
+        </div>
+        <Testmonials/>
+        <div ref={brandsRef}>
+          <Brands />
         </div>
         <FAQ />
       </div>
