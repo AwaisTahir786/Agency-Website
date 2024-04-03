@@ -60,7 +60,7 @@ function Test() {
             </div>
 
         
-            {/* <div className="">
+            <div className="">
                 <div className="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14   dark:bg-trueGray-800">
                     <p className="text-2xl leading-normal">Share a<mark className="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">testimonial</mark>that hits some of your benefits from one of your popular customer.</p>
                     <div className="flex items-center mt-8 space-x-3">
@@ -101,7 +101,7 @@ function Test() {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
 
         </div>
     </div>
