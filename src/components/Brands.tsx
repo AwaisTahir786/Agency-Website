@@ -50,10 +50,10 @@ function Brands() {
                         <Image
                         src={data.image}
                         alt="logo"
-                        width={200}
-                        height={500}
+                        width={80}
+                        height={80}
                         priority
-                        className="w-full h-auto max-w-full rounded-lg"
+                        className="w-50 h-auto max-w-full rounded-lg"
 
                         />
 
