@@ -17,7 +17,7 @@ function Test() {
       <div className="container mx-auto mb-10 lg:px-10">
         <div className="grid gap-6 max-w-screen px-24 lg:grid-cols-2 xl:grid-cols-3">
             <div className="">
-                <div className="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14   dark:bg-trueGray-800">
+            <div className="flex flex-col justify-between w-full h-[20rem]	 px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-10 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className="text-2xl leading-normal">Share a<mark className="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">testimonial</mark>that hits some of your benefits from one of your popular customer.</p>
                     <div className="flex items-center mt-8 space-x-3">
                         <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
@@ -31,7 +31,7 @@ function Test() {
                 </div>
             </div>
             <div className="">
-                <div className="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 dark:bg-trueGray-800">
+            <div className="flex flex-col justify-between w-full h-[20rem]	 px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-10 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className="text-2xl leading-normal">Make sure you only pick the <mark className="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">right sentence</mark> to keep it short and simple.</p>
                     <div className="flex items-center mt-8 space-x-3">
                         <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
@@ -45,7 +45,7 @@ function Test() {
                 </div>
             </div>
             <div className="">
-                <div className="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 dark:bg-trueGray-800">
+            <div className="flex flex-col justify-between w-full h-[20rem]	 px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-10 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className="text-2xl leading-normal">This is an <mark className="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">awesome</mark> landing page template I&#x27;ve seen. I would use this for anything.</p>
                     <div className="flex items-center mt-8 space-x-3">
                         <div className="flex-shrink-0 overflow-hidden rounded-full w-20 h-20">
@@ -61,7 +61,7 @@ function Test() {
 
         
             <div className="">
-                <div className="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14   dark:bg-trueGray-800">
+            <div className="flex flex-col justify-between w-full h-[20rem]	 px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-10 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className="text-2xl leading-normal">Share a<mark className="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">testimonial</mark>that hits some of your benefits from one of your popular customer.</p>
                     <div className="flex items-center mt-8 space-x-3">
                         <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
@@ -75,7 +75,7 @@ function Test() {
                 </div>
             </div>
             <div className="">
-                <div className="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 dark:bg-trueGray-800">
+            <div className="flex flex-col justify-between w-full h-[20rem]	 px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-10 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className="text-2xl leading-normal">Make sure you only pick the <mark className="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">right sentence</mark> to keep it short and simple.</p>
                     <div className="flex items-center mt-8 space-x-3">
                         <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
@@ -89,7 +89,7 @@ function Test() {
                 </div>
             </div>
             <div className="">
-                <div className="flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-14 rounded-2xl md:py-14 dark:bg-trueGray-800">
+            <div className="flex flex-col justify-between w-full h-[20rem]	 px-6 py-6 bg-gray-100 dark:bg-gray-800 md:px-10 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className="text-2xl leading-normal">This is an <mark className="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">awesome</mark> landing page template I&#x27;ve seen. I would use this for anything.</p>
                     <div className="flex items-center mt-8 space-x-3">
                         <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
