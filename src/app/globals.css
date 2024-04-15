@@ -65,7 +65,18 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
- 
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/fonts/CustomFont-Regular.ttf') format('truetype');
+  /* You may need to adjust the path to your font file */
+}
+
+/* Apply the font to elements */
+body {
+  font-family: 'CustomFont', sans-serif;
+}
+
 @layer base {
   * {
     @apply border-border;
