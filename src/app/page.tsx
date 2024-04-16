@@ -14,6 +14,9 @@ import FAQ from "@/components/FAQ";
 import { useRef } from "react";
 import { DiEnvato } from "react-icons/di";
 import Testmonials from "@/components/Testmonials";
+import Pricing from "@/components/Pricing";
+import Websection from "@/components/Websection";
+import Easysteps from "@/components/Easysteps";
 
 export default function Home() {
 
@@ -69,8 +72,9 @@ export default function Home() {
           <Sliderone />
         </div>
         <div ref={websiteDesignRef}>
-          <Website />
+        <Websection/>
         </div>
+        <Easysteps/>
         <div ref={graphicsDesignRef}>
           <GraphicDesign />
         </div>
@@ -82,6 +86,7 @@ export default function Home() {
         <Services />
         </div>
         <Testmonials/>
+        <Pricing/>
         <div ref={brandsRef}>
           <Brands />
         </div>
