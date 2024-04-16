@@ -6,18 +6,18 @@ import { cn } from "@/lib/utils";
 const font = Lora({ subsets: ["latin"], weight: ["400"] });
 
 const logos = [
-  {
-    image: "/logo/stripelogo.png",
-  },
+  // {
+  //   image: "/logo/stripelogo.png",
+  // },
   {
     image: "/logo/logoipsum-225.svg",
   },
-  {
-    image: "/logo/logoipsum-245.svg",
-  },
-  {
-    image: "/logo/logoipsum-247.svg",
-  },
+  // {
+  //   image: "/logo/logoipsum-245.svg",
+  // },
+  // {
+  //   image: "/logo/logoipsum-247.svg",
+  // },
   {
     image: "/logo/logoipsum-248.svg",
   },
@@ -32,7 +32,7 @@ function Brands() {
       {" "}
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div
-          className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-[#39FF14]"
+          className="text-4xl pb-5 md:text-6xl px-6 text-center bg-clip-text text-[#39FF14]"
         >
           The best brands
           <br /> choose us
