@@ -59,7 +59,7 @@ function Test() {
                 </div>
             </div>
 
-        
+{/*         
             <div className="">
             <div className="flex flex-col justify-between border-2 border-[#39FF14] w-full h-full	 px-6 py-6 bg-black md:px-10 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className="text-xl leading-normal text-white">Share a<span className="mx-1 text-white font-extrabold">testimonial</span>that hits some of your benefits from one of your popular customer.</p>
@@ -101,7 +101,7 @@ function Test() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     </div>

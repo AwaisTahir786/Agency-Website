@@ -90,7 +90,7 @@ export default function Home() {
         <div ref={brandsRef}>
           <Brands />
         </div>
-        <FAQ />
+        {/* <FAQ /> */}
       </div>
 
   );
