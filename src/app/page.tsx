@@ -76,7 +76,7 @@ export default function Home() {
         </div>
         <Easysteps/>
         <div ref={graphicsDesignRef}>
-          <GraphicDesign />
+          {/* <GraphicDesign /> */}
         </div>
         {/* <div ref={shopifyStoresDesignRef}>
           <ShopifyStore />
