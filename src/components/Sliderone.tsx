@@ -33,14 +33,14 @@ function Sliderone() {
     }
 
     if(isMediumScreen){
-        settings.slidesToShow=1.67;
+        settings.slidesToShow=3;
     }
     if(issmallScreen){
-        settings.slidesToShow=1;
+        settings.slidesToShow=2;
     }
 
   return (
-    <div>
+    <div className='mt-[-43px]'>
         <Slider {...settings}>
         <>
         <div className='rounded-sm p-2'>

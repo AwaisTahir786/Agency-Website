@@ -3,11 +3,11 @@ import React from 'react'
 
 function Services() {
   return (
-    <div className='max-w-5xl mx-auto py-8'>
+    <div className='max-w-5xl mx-auto '>
 
 <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div
-          className="text-4xl pb-5 md:text-6xl font-bold px-6 text-center text-[#39FF14]"
+          className="text-4xl pb-5 md:text-5xl font-bold px-6 text-center text-[#39FF14]"
         >
           Our services
         </div>

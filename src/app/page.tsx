@@ -19,6 +19,7 @@ import Websection from "@/components/Websection";
 import Easysteps from "@/components/Easysteps";
 import Easystepsweb from "@/components/Easystepsweb";
 import Pricingweb from "@/components/Pricingweb";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 
@@ -97,9 +98,10 @@ export default function Home() {
        
         <Testmonials/>
         <div ref={brandsRef}>
-          <Brands />
+          {/* <Brands /> */}
         </div>
         {/* <FAQ /> */}
+        {/* <Footer/> */}
       </div>
 
   );

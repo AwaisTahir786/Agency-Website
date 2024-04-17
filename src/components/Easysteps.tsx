@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Easysteps = () => {
     return (
-        <section className="h-full min-h-screen w-full bg-black pt-8 p-4">
+        <section className="h-full min-h-screen w-full bg-black pt-12 p-4">
 <div
                 className="text-4xl font-bold md:text-4xl px-6 pb-2 text-center bg-clip-text text-[#39FF14] "
             >
@@ -12,7 +12,7 @@ const Easysteps = () => {
 
             </div>
 
-            <div className="bg-black relative block px-6 py-10 md:py-10 md:px-10">
+            <div className="bg-black relative block px-6 py-8 md:py-0 md:px-10">
 
                 <div className="relative mx-auto max-w-6xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
                     <div className="rounded-md border border-black bg-neutral-900/50 p-8 text-center shadow">

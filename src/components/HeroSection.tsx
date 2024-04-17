@@ -4,16 +4,16 @@ import Sliderone from './Sliderone'
 
 function HeroSection() {
   return (
-    <div className="p-4 mx-auto relative z-10 w-full pt-8 md:pt-8 px-2">
+    <div className="p-4 mx-auto relative z-10 w-full pt-8 md:pt-4 px-2">
           <div className="text-4xl pb-5 md:text-7xl px-6 text-center font-bold  text-[#39FF14]"
           >
             Great, Grow And <br /> Scale Your Bussiness
           </div>
 
-        <p className="text-center mt-6 text-lg font-normal text-white max-w-3xl mx-auto px-4">
+        <p className="text-center  text-lg font-normal text-white max-w-3xl mx-auto px-4">
           Receive your design and website under 48 hours, with unlimited revisions through your dedicated client portal. All logos are handcrafted by coffee-fueled designers.
         </p>
-        <div className='flex flex-row justify-center items-center gap-10 '>
+        <div className='flex flex-row justify-center items-center gap-4 mt-1 '>
           <div>   <Link href="/book" className="flex items-center text-white font-bold hover:text-[#39FF14] justify-center px-6 py-2 mx-auto my-6 border-4 border-[#39FF14] rounded-lg cursor-pointer">
 
 Book a Call
