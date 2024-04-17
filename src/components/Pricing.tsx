@@ -70,7 +70,7 @@ const plans = [
 
 const Pricing = () => {
   return (
-    <div className="w-full xl:mt-[-250px]  md:items-center md:justify-center
+    <div className="w-full xl:mt-[-200px]  md:items-center md:justify-center
      bg-black/[0.96] antialiased 
      bg-grid-white/[0.02] relative overflow-hidden">
 
@@ -80,7 +80,7 @@ const Pricing = () => {
         <div className="text-[42px] font-bold pb-10 md:pb-16 text-[#39FF14] px-6 text-center bg-clip-text  bg-gradient-to-b from-neutral-50 to-neutral-500 bg-opacity-50">
           Simple Pricing  For Logo Designing
         </div>
-        <div className="grid md:grid-cols-3 gap-6 md:w-4/5 cursor-pointer pb-6  items-start ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:w-4/5 cursor-pointer pb-6  items-start ">
           {plans.map((plan, index) => (
             <div
               key={plan.name}
@@ -103,7 +103,7 @@ const Pricing = () => {
                   {plan.features.map((feature) => (
                     <li
                       key={feature}
-                      className="text-lg  py-1 flex space-x-2 items-center"
+                      className="text-md  py-1 flex space-x-2 items-center"
                     >
                       {/* render checkmark only for enterprise tab*/}
                       {plan.feature === "Contact Us" ? (

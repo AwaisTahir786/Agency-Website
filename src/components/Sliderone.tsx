@@ -43,7 +43,7 @@ function Sliderone() {
     <div className='mt-[-43px]'>
         <Slider {...settings}>
         <>
-        <div className='rounded-sm p-2'>
+        <div className='rounded-sm p-3'>
             <Image
             priority
             src="/woodd.jpg"
@@ -57,7 +57,7 @@ function Sliderone() {
 
         
         <>
-        <div className='rounded-sm p-2'>
+        <div className='rounded-sm p-3'>
             <Image
             priority
             src="/woodd.jpg"
@@ -70,7 +70,7 @@ function Sliderone() {
         </>
 
         <>
-        <div className='rounded-sm p-2'>
+        <div className='rounded-sm p-3'>
             <Image
             priority
             src="/woodd.jpg"
@@ -84,7 +84,7 @@ function Sliderone() {
      
 
         <>
-        <div className='rounded-sm p-2'>
+        <div className='rounded-sm p-3'>
             <Image
             priority
             src="/woodd.jpg"
@@ -97,7 +97,7 @@ function Sliderone() {
         </>
 
         <>
-        <div className='rounded-sm p-2'>
+        <div className='rounded-sm p-3'>
             <Image
             priority
             src="/woodd.jpg"
@@ -111,7 +111,7 @@ function Sliderone() {
 
         
         <>
-        <div className='rounded-sm p-2'>
+        <div className='rounded-sm p-3'>
             <Image
             priority
             src="/woodd.jpg"

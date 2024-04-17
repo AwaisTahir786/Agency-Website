@@ -70,7 +70,7 @@ const plans = [
 
 const Pricingweb = () => {
   return (
-    <div className="w-full xl:mt-[-250px]  md:items-center md:justify-center
+    <div className="w-full xl:mt-[-230px]  md:items-center md:justify-center
      bg-black/[0.96] antialiased 
      bg-grid-white/[0.02] relative overflow-hidden">
 
@@ -103,7 +103,7 @@ const Pricingweb = () => {
                   {plan.features.map((feature) => (
                     <li
                       key={feature}
-                      className="text-lg  py-1 flex space-x-2 items-center"
+                      className="text-md  py-1 flex space-x-2 items-center"
                     >
                       {/* render checkmark only for enterprise tab*/}
                       {plan.feature === "Contact Us" ? (
