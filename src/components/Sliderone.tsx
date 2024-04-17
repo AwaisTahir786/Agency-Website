@@ -25,7 +25,7 @@ function Sliderone() {
     const settings={
         arrows : false,
         infinite: true,
-        slidesToShow: 4,
+        slidesToShow: 5,
         speed:8000,
         autoplay:true,
         autoplaySpeed:1000,
@@ -43,10 +43,10 @@ function Sliderone() {
     <div>
         <Slider {...settings}>
         <>
-        <div className='rounded-md p-2 md:p-12'>
+        <div className='rounded-sm p-2'>
             <Image
             priority
-            src="/small1.jpg"
+            src="/woodd.jpg"
             alt='1image'
             width={300}
             height={300}
@@ -57,7 +57,7 @@ function Sliderone() {
 
         
         <>
-        <div className='rounded-md p-2 md:p-12'>
+        <div className='rounded-sm p-2'>
             <Image
             priority
             src="/woodd.jpg"
@@ -70,10 +70,10 @@ function Sliderone() {
         </>
 
         <>
-        <div className='rounded-md p-2 md:p-12'>
+        <div className='rounded-sm p-2'>
             <Image
             priority
-            src="/small2.jpg"
+            src="/woodd.jpg"
             alt='1image'
             width={300}
             height={300}
@@ -81,11 +81,10 @@ function Sliderone() {
              />
         </div>
         </>
-
      
 
         <>
-        <div className='rounded-md p-2 md:p-12'>
+        <div className='rounded-sm p-2'>
             <Image
             priority
             src="/woodd.jpg"
@@ -98,10 +97,10 @@ function Sliderone() {
         </>
 
         <>
-        <div className='rounded-md p-2 md:p-12'>
+        <div className='rounded-sm p-2'>
             <Image
             priority
-            src="/small2.jpg"
+            src="/woodd.jpg"
             alt='1image'
             width={300}
             height={300}
@@ -112,7 +111,7 @@ function Sliderone() {
 
         
         <>
-        <div className='rounded-md p-2 md:p-12'>
+        <div className='rounded-sm p-2'>
             <Image
             priority
             src="/woodd.jpg"

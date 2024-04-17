@@ -1,13 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Easysteps = () => {
+const Easystepsweb = () => {
     return (
-        <section className="h-full min-h-screen w-full bg-black pt-8 p-4">
-<div
+        <section className="h-full min-h-screen w-full bg-black pt-8 mt-14 p-4">
+            <div
                 className="text-4xl font-bold md:text-4xl px-6 pb-2 text-center bg-clip-text text-[#39FF14] "
             >
-                A professional <span className='border-[#39FF14] border-2 text-white rounded-lg px-4 text-light font-none text-3xl py-1'>Logo</span>  in
+                A professional <span className='border-[#39FF14] border-2 text-white rounded-lg px-4 text-light font-none text-3xl py-1'>Website</span>  in
                 three easy steps
 
             </div>
@@ -85,4 +85,4 @@ const Easysteps = () => {
     );
 };
 
-export default Easysteps;
+export default Easystepsweb;

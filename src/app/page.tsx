@@ -17,6 +17,8 @@ import Testmonials from "@/components/Testmonials";
 import Pricing from "@/components/Pricing";
 import Websection from "@/components/Websection";
 import Easysteps from "@/components/Easysteps";
+import Easystepsweb from "@/components/Easystepsweb";
+import Pricingweb from "@/components/Pricingweb";
 
 export default function Home() {
 
@@ -71,10 +73,20 @@ export default function Home() {
       <div className="w-full pt-20">
           <Sliderone />
         </div>
+        <div ref={servicesRef}>
+        <Services />
+        </div>
+
+
         <div ref={websiteDesignRef}>
-        <Websection/>
+        {/* <Websection/> */}
         </div>
         <Easysteps/>
+        <Pricing/>
+        <Easystepsweb/>
+        <Pricingweb/>
+        
+
         <div ref={graphicsDesignRef}>
           {/* <GraphicDesign /> */}
         </div>
@@ -82,11 +94,8 @@ export default function Home() {
           <ShopifyStore />
         </div>
          */}
-        <div ref={servicesRef}>
-        <Services />
-        </div>
+       
         <Testmonials/>
-        <Pricing/>
         <div ref={brandsRef}>
           <Brands />
         </div>

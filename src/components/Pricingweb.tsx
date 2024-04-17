@@ -68,7 +68,7 @@ const plans = [
   },
 ];
 
-const Pricing = () => {
+const Pricingweb = () => {
   return (
     <div className="w-full mt-[-120px]  md:items-center md:justify-center
      bg-black/[0.96] antialiased 
@@ -164,7 +164,7 @@ const Pricing = () => {
   )
 };
 
-export default Pricing;
+export default Pricingweb;
 
 
 
