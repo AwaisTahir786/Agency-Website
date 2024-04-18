@@ -6,7 +6,7 @@ function Test() {
   return (
     
 <section className="bg-black  md:py-0 ">
-  <div className="py-8 px-4 mx-auto  lg:py-4 lg:px-10 ">
+  <div className="py-8 px-4 mx-auto  lg:py-4 lg:px-10  ">
   <div className='text-4xl font-bold py-10 md:pb-4 text-[#39FF14] md:text-6xl text-center bg-clip-text '>
                 Testmonials<br/>
             </div>
@@ -14,9 +14,8 @@ function Test() {
           <h2 className="  text-white ">We have worked with thousands of amazing peoples</h2>
       </div> 
 
-      <div className="container mx-auto mb-10 lg:px-10">
-        <div className="grid gap-6 max-w-screen px-40 lg:grid-cols-2 xl:grid-cols-3">
-            <div className="">
+      <div className=" mx-auto mb-10 ">
+        <div className="grid gap-6 max-w-screen md:px-40 lg:grid-cols-2 xl:grid-cols-3">
             <div className="flex flex-col border-2 border-[#39FF14] justify-between w-full h-full	 px-6 py-6 bg-black md:px-6 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className="text-[18px] text-white ">Share a<span className="mx-1 text-white font-extrabold">testimonial</span>that hits some of your benefits from one of your popular customer.</p>
                     <div className="flex items-center mt-8  space-x-3">
@@ -29,8 +28,6 @@ function Test() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="">
             <div className="flex flex-col justify-between w-full border-2 border-[#39FF14] h-full	 px-6 py-6 bg-black md:px-10 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className="text-[18px] leading-normal text-white ">Make sure you only pick the <span className="mx-1 text-white font-extrabold ">right sentence</span> to keep it short and simple.</p>
                     <div className="flex items-center mt-8 space-x-3">
@@ -43,8 +40,6 @@ function Test() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="">
             <div className="flex flex-col justify-between border-2 border-[#39FF14] w-full h-full	 px-6 py-6 bg-black md:px-10 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className="text-xl leading-normal text-white">This is an <span className="mx-1 text-white font-extrabold">awesome</span> landing page template I&#x27;ve seen. I would use this for anything.</p>
                     <div className="flex items-center mt-8 space-x-3">
@@ -57,7 +52,6 @@ function Test() {
                         </div>
                     </div>
                 </div>
-            </div>
 
 {/*         
             <div className="">
