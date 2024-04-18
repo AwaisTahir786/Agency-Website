@@ -70,7 +70,7 @@ const plans = [
 
 const Pricing = () => {
   return (
-    <div className="w-full xl:mt-[-200px]  md:items-center md:justify-center
+    <div className="w-full xl:mt-[-230px]  md:items-center md:justify-center
      bg-black/[0.96] antialiased 
      bg-grid-white/[0.02] relative overflow-hidden">
 
