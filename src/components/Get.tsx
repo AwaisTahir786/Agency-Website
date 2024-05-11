@@ -21,7 +21,7 @@ const Get = () => {
 
 
 
-                            <li className="flex   items-center text-[#39FF14] font-bold  justify-center px-6 py-1  bg-black hover:bg-[#37ff14cc] rounded-full  cursor-pointer">
+                            <li className="flex   items-center text-[#39FF14] font-bold  justify-center px-6 py-2  bg-black rounded-full  cursor-pointer">
 
                                 <div className='p-1 border-2 border-[#39FF14] bg-black  rounded-full'>
                                     <FaPen className='text-[12px] text-[#39FF14] ' />
@@ -85,7 +85,7 @@ const Get = () => {
 
 
 
-                            <li className="flex   items-center text-[#39FF14] font-bold  justify-center px-6 py-1  bg-black hover:bg-[#37ff14cc] rounded-full  cursor-pointer">
+                            <li className="flex   items-center text-[#39FF14] font-bold  justify-center px-6 py-1  bg-black  rounded-full  cursor-pointer">
 
                                 <div className='p-1 border-2 border-[#39FF14] bg-black  rounded-full'>
                                     <FaPen className='text-[12px] text-[#39FF14] ' />
@@ -97,7 +97,7 @@ const Get = () => {
                                 </div>
 
                             </li>
-                            <li className="flex   items-center text-[#39FF14] font-bold  justify-center px-6 py-1  bg-black hover:bg-[#37ff14cc] rounded-full  cursor-pointer">
+                            <li className="flex   items-center text-[#39FF14] font-bold  justify-center px-6 py-1  bg-black  rounded-full  cursor-pointer">
 
                                 <div className='p-1 border-2 border-[#39FF14] bg-black  rounded-full'>
                                     <FaPen className='text-[12px] text-[#39FF14] ' />
